@@ -1,0 +1,11 @@
+operators:
+assignment operator-----=, also reassignment is = sign
++ addition
+**= exponant
+/= divide
+%= modulus
+++ increase by one
+-- decrease by one
+
+
+Arithmatic-operator

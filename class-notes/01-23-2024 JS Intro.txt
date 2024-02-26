@@ -1,0 +1,13 @@
+declaration
+let address;
+
+Assignmnet
+Address = 'chicago'
+
+initailization
+let address = 'chicago'
+
+re assignment
+address =  'Miami';
+
+---Cannot reassign const

@@ -1,0 +1,50 @@
+GIT: global information tracker
+
+create repository
+*git init - initializes (creates) a repository
+*git remote add origin <remote url> 
+git status - checks repository status
+git add {filename.ext} - adds file to staging area
+git add {fileName1} {fileName2} {fileName3} - add multiple files
+*git add . ----- adds all the files/folders inside the project folder to staging area
+*git commit -m “message here” - commits (snapshot) of code at a certain time & saves tp repository history
+*git push -u origin <branch name>
+*git push
+\
+\
+
+clone : ssh
+
+--------------------------------------------------------------
+
+git log - see all the commits made for a project
+git checkout <commit-hash> : go back to a previous state of project
+git checkout master : return to master branch (newest project version)
+git branch : this will just list all the branches
+git branch <new-branch-name> : create new branch from master
+git checkout <branch-name> : switch to a different branch
+git checkout -b <new-branch-name> : create new branch and change to it at the same time
+git merge <branch-name> : merge branch to a different one (usually after new feature is complete/tested & want to merge changes to stable (master) branch).
+git branch -d <branch-name> : delete a branch
+
+cloning a repository
+1.create Remote repositor
+2.git clone <remote url>             (ssh)
+3.*git add . - adds all the files/folders inside the project folder to staging area
+*git commit -m “message here” - commits (snapshot) of code at a certain time & saves tp repository history
+*git push -u origin <branch name>
+*git push
+
+
+
+/// git branch
+////git branch checkout <>
+
+
+.gitignore
+README.md
+
+
+
+// git merge origin/<> ---local merge
+// git pull----remote pull from cloud

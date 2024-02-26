@@ -1,0 +1,84 @@
+EXAMPLE 1:
+
+console.log('ZERO');
+
+if(true) {
+    console.log('ONE');
+}
+else if(true) {
+    console.log('TWO');
+}
+else if(true) {
+    console.log('THREE');
+}
+else {
+    console.log('FOUR');
+}
+
+console.log('FIVE');
+
+Output:
+ZERO 
+ONE
+FIVE
+
+
+EXAMPLE 2:
+
+console.log('ZERO');
+
+if(false) {
+    console.log('ONE');
+}
+else if(true && false) {
+    console.log('TWO');
+}
+else if(true && !true) {
+    console.log('THREE');
+}
+else {
+    console.log('FOUR');
+}
+
+console.log('FIVE');
+
+Output:
+ZERO 
+FOUR 
+FIVE
+
+EXAMPLE 2:
+
+console.log('ONE'); 
+
+if(3 ** 3 === '27') {
+    console.log('TWO');
+    if(false) {
+        console.log('THREE');
+    }
+    else if(true && false) {
+        console.log('FOUR');
+    }
+    else {
+        console.log('FIVE');
+    }
+}
+else {
+    console.log('SIX');
+    if(false || !true || 2) {
+        console.log('SEVEN');
+    }
+    else {
+        console.log('EIGHT');
+    }
+}
+
+console.log('NINE');
+console.log('TEN');
+
+Output:
+ONE 
+SIX
+SEVEN
+NINE
+TEN

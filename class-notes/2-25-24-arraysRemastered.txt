@@ -1,0 +1,8 @@
+numbers array
+const numbers = [1, 3, 5, 1]
+
+boolean arrays
+const booleans = [true, false, 2 === 2, 'hello'=='hi']
+
+length property -> used to get the size of the array
+

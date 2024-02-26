@@ -1,0 +1,3 @@
+let var const: are used to create variable that stores pieces of data,
+and numbers and text
+

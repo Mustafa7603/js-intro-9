@@ -1,0 +1,21 @@
+CLI: command line interface
+GUI: graphical user interface
+
+mac: terminal
+windows: command prompt, shell, powershell
+
+
+root directory:
+
+
+removing not empty file
+rmdir /s (dirname)
+rmdir /s /q Delete no questions
+
+all the way to the room
+cd /
+
+
+new file
+echo. > myFile.txt
+

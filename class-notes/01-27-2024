@@ -1,0 +1,63 @@
+let short cut
+
+insted of typing 
+
+let age1 = 24
+let age2 = 25
+let age3 = 26
+
+you can do
+
+let age1 = 24, age2 = 25, age3 = 26;
+
+DATA TYPES
+PRIMitive: basic 7 
+-string-text dataanything infini 'quotes'
+-number-number data inifinite no quotes
+-undefined-anything with no value, not yet defined
+-null-on purpose no value
+-boolean, yes or no, true or false
+-bigint-big bytes or data use n at the end
+-symbol-
+
+typeof- used to find type of data type
+
+Reference data TYPES: also called objects thousands built in, but you can create your own
+Arrays-const, curly brace, collections of data stored as element can be manipulated
+=const names = ['John', 'Jane', 'Moose'];
+console.log(names[0]),
+'John'
+console.log(numbers.lengths); or use console.log(size)----give you how many elements are in the Array
+javascript counts it for you
+index= how many elements are in a array
+const numbers = [25, 67, 100.99];
+console.log(numbers.length);
+
+array[array.length - 1]---> will always get the last element
+---------------------------------------------------
+objects:
+const student1 = {
+    name: 'John',
+    age: 25,
+    address: 'Chicago'
+}
+const student2 = {
+    name: 'Hican',
+
+}
+
+console.log(student1);
+specific
+console.log(student1.firstName);
+
+update properties of the objects
+student1.address = 'Miami';
+you can add properties:
+delete student1.phoneNumber;
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+operators;
+    -tools or symbols used for math, comparison, logical and more operations with data
+    2+2
+
+    Assignement operatior: =
+    arithmatic operators: used more math calculations
+    +,-,/,%,
+
+++ increase by one
+-- decrease by one
+
+
+
+because careful for using + sign because it is used for concatanation and addition
+string + string = concatanation
+number + number = addition
+string + number = concatanation
+
+'a' + 1 + 2 + 3
+= 'a123
+
+'a' +(1+2+3)
+"a6"
+
+1+2+3+'a'
+='6a'
+
+[left to right]
+
+17 % 25 =17
+
+shorthand assignment operatiors:
++=
+-=
+*=
+**=
+/=
+%= 
+
+comparison operators
+2 == 2  true
+5 - 2 == 3  true
+2 * 5 == 20 / 2   true
+5 != 2   true
+2 != 2   false
+
+'3' == 3  true
+'3' === 3  false
+3 === 3   true
+'3' === '3' true 
+'hello' === 'hello' true
+
+
+0= false
+true = 1
+x=10 y=20 z='10'
+
+(x<=z) = < y
+this = 1 < 20 = true
+
+false
+0
+{}
+[]
+NaN
+''
+undefined
+null
+
+any number even negative biside 0 is true
+
+logical operators 
+&&= and
+||= or
+!= not
+
+with && you will get the result true omly if all espression
+are true
+
+with || you will get true when one or both epressions are true
+only way to get false if all espression are false
+
+?? is going to result in first expression if the frist expression is
+not null or undefined
+
+
+null ?? anything ---- is going to be anything
+undefined ?? anything ----is going to anything
+
+X ?? Y -----  X Its always going to be the frist one
+
+
+

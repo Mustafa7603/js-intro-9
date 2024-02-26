@@ -1,0 +1,65 @@
+strings-anything in quotes is a strings, ' " `
+${}-interpolation
+
+let str = '15.5"
+to conver to number you have to use
+console.log(5 + Number(str)); or
+console.log(5 + parseInt(str)); or just whole number round up or down2
+console.log(5 + parsefloat(str)); or same a number
+ 
+
+ ---concatination
+Task - combines a strings
+return - it returns a new strings
+change orignal values - does not change values
+arguments - whatever is in paratheses
+
+static vs non static
+non static- invoke with variable
+static- invoke with array or number or object
+
+changing cases
+let day = 'Saturday'
+console.log(day.toUpperCase())
+day.toLowerCase()
+
+(method Explaination)
+TASK: coverts to upper lower cases
+RETURN: Returns all sting to lower toUpperCase
+CHANGE ORIGINAL VALUE: no (does not change the INITAIAL variable)
+STATIC: Non static
+ARGUMENT- 
+
+-------extracting character from the strin------
+
+let company = techglobal
+
+let firstChar = company[0]; can only grab a single character only for the (first letter)
+let lastChar = company[company.length - 1] this is flexable for the changes in the future
+
+let secondChar = company[1];
+let secondLastChar = company[company.length - 2];
+
+----tricky part-----
+
+console.log(company[-1]) ---underfined
+
+
+//charAt()
+
+console.log(company.charAt(-1))  // returns as empty string
+console.log(company.charAt(10)) //
+
+properties access returns and undefined and charAt() returns as empty string
+
+
+
+
+
+
+
+
+
+
+
+
