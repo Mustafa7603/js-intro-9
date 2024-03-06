@@ -1,0 +1,35 @@
+1. for loop i as a index or counter
+
+syntax
+for(initailization, termination; update)
+
+iteration: each time your loops executes
+
+
+while loop
+
+syntax
+
+while(condition){
+    block
+}
+
+
+do-while
+-while loop checks the condition and if it is true it executes the code
+-do while loop executes the code black first, then check the conditions
+-because of the difference above, do-while will execute the code block at least once all the time
+
+syntax
+
+do{
+
+}while(condition)
+
+
+
+loop control statementts
+break: is used to terminate the loop
+continue: is used to skip the current iteration
+
+

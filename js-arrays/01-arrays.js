@@ -137,3 +137,67 @@ console.log(animal1) //changes the original array
 console.log(animal1.splice(1, 0, 'Rabbit', 'Cat', 'Lion')) //1st arguments says where to start
 //2nd arguement see how many elements you want to remove
 //3rd arguemnt see how many you want to add
+
+// 
+const nnames = ['alex','Adam','Jane','John']
+console.log(nnames.sort()) ///sorts elements and numbers alphabetically and with asc11 numbers
+//stay away for performance issues
+
+const nums1 = [5, 2, 1, 22, 100]
+nums1.sort((a, b) => a - b); // accending
+nums1.sort((a, b) => b - a);// decending
+// you gotta use this because the program
+//uses asc11 and is stupid so you gotta tell it to argue the numbers
+
+/*const students = [
+    [
+        ['ameer', 'ali', 'hicran'],
+        ['emre', 'abdullah', 'tania', 'mustafa'],
+        ['marta', 'niko', 'mykola']
+    ],
+    [
+        ['jane', 'alex', 'john'],
+        ['maria','max']
+    ]
+
+];
+console.log(students.length) / 2
+console.log(students[0].length) // 3
+console.log(students[0][1].length) // 4
+console.log(students[0][1][2]) // 'tania'
+console.log(students[0][1][2][0]) // 't'
+console.log(students[1][1][1]) // 'max' */
+
+const students = [
+    [
+        ['ameer', 'ali', 'hicran'],
+        ['emre', 'abdullah', 'tania', 'mustafa'],
+        ['marta', 'niko', 'mykola']
+    ],
+    [
+        ['jane', 'alex', 'john'],
+        ['maria','max']
+    ]
+
+];
+console.log(students.flat().length) //5 see how many groups
+console.log(students.flat().flat().length) // 15 see how many students or
+console.log(students.flat(23452).length) // 15 see how many students or
+console.log(students.flat(Infinity).length) // 15
+
+//names.toString()
+//names.join()
+const objs = ['mouse', 'computer', 'remote'];
+
+console.log(objs.toString()) // mouse,computer,remote
+console.log(objs.join('-')) // mouse-computer-remote
+
+
+//FINDING MAX AND MIN OF A ARRAY!
+/*const names = ['Alex', 'James', 'John'];
+
+const numbers = [10, 25, 35, -5];
+
+let max = Math.max(...numbers);
+let min = Math.min(...numbers);
+console.log(max, min) */
