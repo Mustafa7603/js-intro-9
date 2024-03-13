@@ -17,9 +17,10 @@ console.log(countPos([0, -1, -2, -3]))
 //task 2
 function countA(str) {
     let count = 0
-    for (let i = 0; i <= str.length; i++) {
-        if (str[i].toLowerCase() === 'a') count++
-    }
+    let str1 = str.toLowerCase()
+    for (let i = 0; i <= str.length; i++) 
+        if (str1[i] === 'a') count++
+    
     return count
 }
 
@@ -244,3 +245,10 @@ function isPasswordValid(password) {
     return true;
 }
 
+console.log(isPasswordValid(""))
+console.log(isPasswordValid("abcd") )
+console.log(isPasswordValid("abcd1234") )
+console.log(isPasswordValid("Abcd1234"))
+console.log(isPasswordValid("Chicago12345US!#$%")) 
+console.log(isPasswordValid("Abcd1234$"))
+console.log(isPasswordValid("Chicago123$"))
