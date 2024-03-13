@@ -1,4 +1,0 @@
-function concat(w1, w2){
-    return console.log(w1 + w2)
-};
-concat('Tech', 'global')

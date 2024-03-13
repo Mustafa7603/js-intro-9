@@ -1,0 +1,61 @@
+const names = ['John', 'Jane', 'Alex', 'Max'];
+// Print each name in the array
+names.forEach(name => console.log(name[0]));
+names.forEach(name => console.log(name.toUpperCase()));
+names.forEach( (name) => {
+    if(name.includes('J')) console.log(name);
+
+})
+
+let count = 0
+names.forEach( (name) =>{
+    if(name.length >= 4) count++
+
+})
+console.log(count)
+
+
+const numbers = [5, 10, 3, 0, -2];
+// Print each number
+
+numbers.forEach(number => console.log(number))
+numbers.forEach(number => console.log(number % 2 === 0))
+
+const newarray = []
+numbers.forEach( (number) => {
+    newarray.push(number * 3)
+})
+
+console.log(newarray)
+
+
+console.log(numbers.map( number => number * 3))
+
+const newarr1 = []
+numbers.forEach( (number) => {
+    if(number % 2 === 0) newarr1.push(number)
+})
+console.log(newarr1)
+
+
+console.log(numbers.filter(number => number % 2 === 0)) // map pushes outputs all the array into a new array,
+//filter pushes into a new array only outputs the ones that are true or false
+
+const cities = ['Chicago', 'Berlin', 'Rome']
+
+let fristLetters = ''
+
+cities.forEach( city => fristLetters += city[0])
+
+console.log(fristLetters)
+
+/* get the first word
+const sentences = ['Good morning', 'I like arrays', 'It is Sunday']
+sentence.split(' ')[0]
+sentence.slice(0, sentence.indexOf(' '))
+*/
+
+const sentences = ['Good morning', 'I like arrays', 'It is Sunday']
+const newarr = sentences.map( sent => sent.split(' ')[0])
+
+console.log(newarr)
