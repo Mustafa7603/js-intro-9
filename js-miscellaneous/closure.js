@@ -1,0 +1,1 @@
+//closure=== ///prevent function varible to be accessed outside the function
