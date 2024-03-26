@@ -11,9 +11,9 @@ console.log(fname.length)
 // backticks and interporlation
 // or .concat method
 
-let company = 'Techglobal'
+let company = 'Tec1hglobal'
 
-company.indexOf('G');
+console.log(company.indexOf('g'));
 console.log(company.indexOf(1)); // 5
 company.lastIndexOf('l'); // 9
 

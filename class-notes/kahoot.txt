@@ -1,0 +1,55 @@
+Used to set the value of the this keyword
+change the value of this to whatever you want, 
+
+call()= student1.fullname.call(student2)// can borrow functions from anthor oject
+invokes immediately
+
+apply()=sayhi.apply(employee, ['Alex']) smae as call but using a array as a arguement
+invokes immediately
+
+bind()= bind does not invoke the function immediately but rather returns a new function 
+you can invoke later
+bind returns new function
+
+currying = allows you to apply the function taking one aguement at a time
+
+
+JSON
+
+can use, numbers, strings, booleans, arrays, objects, null
+cannot use: Functions, symbols, undefined, ojects that represent HTML
+
+
+deep copy: creates and completely independent dup of original object or array includes nested arrays
+and objects, changes made wont affect the original
+DEEP COPY USES PARSE() and stringfy
+
+shallow copy: doesnt duplicate nested arrays or objects just refers to them; modifying nested will affect
+both original and copied SHALLOW USES ... SPREAD OPERator
+
+serialization = turning JSON To string using JSON.stringfy
+deserialization = turning json to javascript JSON.parse()
+
+muteable= can be changed
+immuteable =cannot be changed
+
+primitives are immuteable string number booleans
+
+objects are muteable
+arrays are muteable
+
+var and let are muteable
+const is muteable but once assigned  const variables are immuteable
+
+hoisting - is a concept that allows you to use functions and variables before they are declared
+
+lexicals scope = for nested functions=== function can use outer scope variable,
+ in the inner but not vice versa
+
+closures = make its private, meaning the varinle can be changed only by chnaging their inner functions
+
+
+es 6: let, const, arrow, functions, ...OPERator, for/of, string.includes(), startswith(),endswith()
+new math methods, new numbers properties, methods, array.from(), array keys(), array find()
+object entries, map objects, set objects, classes, promises, symbols, default parameters,
+function rest parameters, javascript modules.

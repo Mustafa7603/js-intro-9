@@ -13,7 +13,7 @@ function isSpace(char) {
 
 
 function isUpperCase(char) {
-    let charAscii = char.charCodeAt(0);
+    let charAscii = char.charCodeAt(0);    
 
     return 65 <= charAscii && charAscii <= 90;
 }

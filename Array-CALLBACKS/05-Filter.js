@@ -5,7 +5,7 @@ console.log(newarr)  /// finding the numbers greater than 50! instead of using c
 
 
 function countover50 (arr){
-    return arr.filter(num => num >=50).length
+ arr.filter(num => num >=50).length
 }
 
 console.log();
